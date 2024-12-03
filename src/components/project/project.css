@@ -1,0 +1,198 @@
+/* test */
+.left_project {
+  position: relative;
+}
+.left_project_items::after {
+  position: absolute;
+  width: 396px;
+  height: 600px;
+  content: "";
+  left: 0;
+  top: 0;
+  z-index: 2;
+  transition: 0.5s;
+}
+/* .left_project_items:hover::after {
+  width: 100%;
+} */
+.overlay_main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 396px;
+  transition: 0.5s;
+  z-index: 3;
+  background: linear-gradient(to bottom right, transparent -25%, #1c1e53 100%);
+}
+.overlay_main:hover {
+  width: 100%;
+}
+.overlay_main h3 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  margin-top: 91px;
+  margin-left: 30px;
+  width: 340px;
+}
+.overlay_main a {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  padding: 112px 240px 76px 35px;
+}
+.customer {
+  padding-bottom: 32px;
+  z-index: 3;
+}
+.customer {
+  position: relative;
+  height: 284px;
+}
+.customer::after {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background: linear-gradient(to bottom right, transparent -25%, #1c1e53 100%);
+  left: 0;
+  top: 0;
+  z-index: 2;
+  transition: 0.8s;
+  -webkit-transition: 0.8s;
+  -moz-transition: 0.8s;
+  -ms-transition: 0.8s;
+  -o-transition: 0.8s;
+}
+.customer:hover::after {
+  width: 20%;
+}
+.customer_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  transition: 0.5s;
+  z-index: 3;
+}
+.customer_overlay h3 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  margin: 128px 36px 0 42px;
+}
+.customer_overlay a {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  margin-top: 10px;
+  margin-left: 42px;
+}
+.church {
+  padding-top: 35px;
+}
+
+/* responsive start */
+/* xs start */
+
+@media (min-width:0px) and (max-width:575px){
+
+  .overlay_main {
+    height: 100%;
+    width: 93px;
+  }  
+  .left_project_items::after {
+    width: 312px;
+
+  }
+  .overlay_main h3 {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 0px;
+    margin-top: 55px;
+    margin-left: 11px;
+    width: 220px;
+  }
+  .overlay_main a {
+    font-size: 12px;
+    line-height: 17px;
+    padding: 112px 240px 76px 17px;
+  }
+  .customer_overlay h3 {
+    font-size: 12px;
+    line-height: 32px;
+    margin: 41px 36px 0 42px;
+  }
+  .customer_overlay a {
+    font-size: 9px;
+
+  }
+}
+
+/* xs end */
+
+
+/* sm start */
+
+@media (min-width:576px) and (max-width:767.98px){
+  .overlay_main {
+    height: 100%;
+    width: 93px;
+  }  
+  .left_project_items::after {
+    width: 312px;
+
+  }
+}
+
+/* sm end */
+
+
+/* md start */
+
+@media (min-width:768px) and (max-width:991px){
+  .overlay_main {
+    height: 100%;
+    width: 93px;
+  }  
+  .left_project_items::after {
+    width: 312px;
+
+  }
+}
+
+/* md end */
+
+
+/* lg start */
+
+@media (min-width:992px) and (max-width:1199px){}
+
+/* lg end */
+
+
+/* xl start */
+
+@media (min-width:1200px) and (max-width:1399px){}
+
+/* xl end */
+
+
+/* xxl start */
+
+@media (min-width:1400px) {}
+
+/* xxl end */
+
+/* responsive end */  

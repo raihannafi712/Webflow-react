@@ -1,0 +1,108 @@
+.faq{
+    padding: 100px 0;
+}
+.faq_head {
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 56px;
+    padding-bottom: 16px;
+  }
+  .faq_body {
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+  }
+.faq_main h3{
+    border-bottom: 2px solid #ECECF1!important;
+    padding-bottom: 50px;
+}  
+
+/* responsive start */
+/* xs start */
+
+@media (min-width:0px) and (max-width:575px){
+  .faq_head {
+    font-size: 24px;
+  }
+  .faq_body {
+    font-size: 15px;
+    line-height: 66px;
+  }
+  h3 {
+    font-size: 15px;
+  }
+  .faq_main p{
+    font-size: 12px;
+  }
+}
+
+/* xs end */
+
+
+/* sm start */
+
+@media (min-width:576px) and (max-width:767.98px){
+  .faq_head {
+    font-size: 24px;
+  }
+  .faq_body {
+    font-size: 15px;
+    line-height: 66px;
+  }
+  h3 {
+    font-size: 15px;
+  }
+  .faq_main p{
+    font-size: 12px;
+  }
+}
+
+/* sm end */
+
+
+/* md start */
+
+@media (min-width:768px) and (max-width:991px){
+  .faq_head {
+    font-size: 24px;
+  }
+  .faq_body {
+    font-size: 15px;
+    line-height: 66px;
+  }
+  h3 {
+    font-size: 15px;
+  }
+  .faq_main p{
+    font-size: 12px;
+  }
+}
+
+/* md end */
+
+
+/* lg start */
+
+@media (min-width:992px) and (max-width:1199px){}
+
+/* lg end */
+
+
+/* xl start */
+
+@media (min-width:1200px) and (max-width:1399px){}
+
+/* xl end */
+
+
+/* xxl start */
+
+@media (min-width:1400px) {}
+
+/* xxl end */
+
+/* responsive end */

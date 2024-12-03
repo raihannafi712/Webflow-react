@@ -1,0 +1,171 @@
+.banner{
+   padding-top: 200px;
+   padding-bottom: 100px;
+   background-color: #1c1e53;
+}
+.head {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 74px;
+    padding: 0 0 24px 0;
+  }
+  .body {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    padding: 0 0 48px 0;
+  }
+  .banner_btn {
+    margin-right: 40px;
+    background-color: #fcd980;
+    padding: 16px 56px;
+    border-radius: 41px;
+  }
+  .banner_btn a {
+    color: black;
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    background-color: #fcd980;
+  }
+  .banner_btn2 {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+  } 
+
+/* responsive start */
+/* xs start */
+
+@media (min-width:0px) and (max-width:575px){
+  .head {
+    font-size: 30px;
+    line-height: 43px;
+    text-align: center;
+}
+.body {
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+}
+.btn_row{
+  text-align: center;
+}
+.banner {
+  padding-top: 120px;
+
+}
+.banner_btn {
+  margin-right: 10px;
+  padding: 15px 38px;
+
+}
+.banner_btn2 {
+  font-size: 13px;
+  line-height: 61px;
+}
+}
+
+/* xs end */
+
+
+/* sm start */
+
+@media (min-width:576px) and (max-width:767.98px){
+  .head {
+    font-size: 30px;
+    line-height: 43px;
+    text-align: center;
+}
+.body {
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+}
+.btn_row{
+  text-align: center;
+}
+.banner {
+  padding-top: 120px;
+
+}
+.banner_btn {
+  margin-right: 10px;
+  padding: 15px 38px;
+
+}
+.banner_btn2 {
+  font-size: 13px;
+  line-height: 61px;
+}
+}
+
+/* sm end */
+
+
+/* md start */
+
+@media (min-width:768px) and (max-width:991px){
+  .head {
+    font-size: 30px;
+    line-height: 43px;
+    text-align: center;
+}
+.body {
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+}
+.btn_row{
+  text-align: center;
+}
+.banner {
+  padding-top: 120px;
+
+}
+.banner_btn {
+  margin-right: 10px;
+  padding: 15px 38px;
+
+}
+.banner_btn2 {
+  font-size: 13px;
+  line-height: 61px;
+}
+}
+
+/* md end */
+
+
+/* lg start */
+
+@media (min-width:992px) and (max-width:1199px){
+  .banner_btn {
+    padding: 20px 34px;
+    border-radius: 42px;
+  }
+}
+
+/* lg end */
+
+
+/* xl start */
+
+@media (min-width:1200px) and (max-width:1399px){}
+
+/* xl end */
+
+
+/* xxl start */
+
+@media (min-width:1400px) {}
+
+/* xxl end */
+/* responsive end */

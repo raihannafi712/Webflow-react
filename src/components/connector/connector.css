@@ -1,0 +1,24 @@
+.connector_down_site {
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    padding: 32px 0;
+  }
+  .connector_down {
+    display: flex;
+  }
+  .connector_down_menu ul {
+    padding-left: 53px;
+    padding-top: 32px;
+    display: flex;
+}
+  .connector_down_menu ul li a {
+    margin-right: 32px;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+  }

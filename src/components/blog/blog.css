@@ -1,0 +1,141 @@
+.blog_pic {
+    padding-top: 62px;
+    padding-bottom: 40px;
+  }
+  .blog_head {
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+  }
+  .blog_date {
+    padding: 40px 0 16px 0;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .blog_body {
+    padding: 16px 0 16px 0;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .blog_last {
+    padding: 0px 0 32px 0;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .blog_btn {
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .blog_box {
+    display: flex;
+    padding-bottom: 128px;
+  }
+
+  /* responsive start */
+/* xs start */
+
+@media (min-width:0px) and (max-width:575px){
+  .blog_head {
+    font-size: 28px;
+    line-height: 0px;
+    text-align: center;
+  }
+  .blog_date {
+    padding: 7px 0 7px 0;
+    font-size: 16px;
+    line-height: 0px;
+  }
+  .blog_body {
+    padding: 16px 0 16px 0;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+  }
+}
+
+/* xs end */
+
+
+/* sm start */
+
+@media (min-width:576px) and (max-width:767.98px){
+  .blog_head {
+    font-size: 28px;
+    line-height: 0px;
+    text-align: center;
+  }
+  .blog_date {
+    padding: 7px 0 7px 0;
+    font-size: 16px;
+    line-height: 0px;
+  }
+  .blog_body {
+    padding: 16px 0 16px 0;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+  }
+}
+
+/* sm end */
+
+
+/* md start */
+
+@media (min-width:768px) and (max-width:991px){
+  .blog_head {
+    font-size: 28px;
+    line-height: 0px;
+    text-align: center;
+  }
+  .blog_date {
+    padding: 7px 0 7px 0;
+    font-size: 16px;
+    line-height: 0px;
+  }
+  .blog_body {
+    padding: 16px 0 16px 0;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+  }
+}
+
+/* md end */
+
+
+/* lg start */
+
+@media (min-width:992px) and (max-width:1199px){}
+
+/* lg end */
+
+
+/* xl start */
+
+@media (min-width:1200px) and (max-width:1399px){}
+
+/* xl end */
+
+
+/* xxl start */
+
+@media (min-width:1400px) {}
+
+/* xxl end */
+
+/* responsive end */

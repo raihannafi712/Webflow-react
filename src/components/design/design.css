@@ -1,0 +1,134 @@
+.design{
+    padding: 100px 0;
+}
+.main_design h6 {
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    padding-bottom: 5px;
+  }
+  .main_design h3 {
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    padding-bottom: 48px;
+  }
+  .design_image_box {
+    background-color: #ffff;
+    margin-right: 32px;
+  }
+  .design_image_box_inside {
+    padding: 58px 30px 55px 34px;
+  }
+  .image_box_head {
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    padding: 23px 0 12px 0;
+  }
+  .image_box_body {
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 28px;
+    /* height: 112px; */
+  }  
+
+/* responsive start */
+/* xs start */
+
+@media (min-width:0px) and (max-width:575px){
+
+  .main_design h3 {
+    font-size: 30px;
+    line-height: 38px;
+    padding-bottom: 10px;
+  }  
+  .image_box_head {
+    font-size: 10px;
+    line-height: 15px;
+    padding: 25px 0 14px 0;
+  }
+  .image_box_body {
+    font-size: 9px;
+    line-height: 17px;
+  }
+}
+
+/* xs end */
+
+
+/* sm start */
+
+@media (min-width:576px) and (max-width:767.98px){
+  .main_design h3 {
+    font-size: 30px;
+    line-height: 38px;
+    padding-bottom: 10px;
+  }  
+  .image_box_head {
+    font-size: 10px;
+    line-height: 15px;
+    padding: 25px 0 14px 0;
+  }
+  .image_box_body {
+    font-size: 9px;
+    line-height: 17px;
+  }
+}
+
+/* sm end */
+
+
+/* md start */
+
+@media (min-width:768px) and (max-width:991px){
+  .main_design h3 {
+    font-size: 30px;
+    line-height: 38px;
+    padding-bottom: 10px;
+  }  
+  .image_box_head {
+    font-size: 10px;
+    line-height: 15px;
+    padding: 25px 0 14px 0;
+  }
+  .image_box_body {
+    font-size: 9px;
+    line-height: 17px;
+  }
+}
+
+/* md end */
+
+
+/* lg start */
+
+@media (min-width:992px) and (max-width:1199px){}
+
+/* lg end */
+
+
+/* xl start */
+
+@media (min-width:1200px) and (max-width:1399px){}
+
+/* xl end */
+
+
+/* xxl start */
+
+@media (min-width:1400px) {}
+
+/* xxl end */
+
+/* responsive end */  

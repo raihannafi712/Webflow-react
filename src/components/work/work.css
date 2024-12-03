@@ -1,0 +1,152 @@
+.work{
+    padding: 100px 0;
+}
+.left_para h3 {
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+  }
+  .left_para h6 {
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    padding-bottom: 16px;
+  }
+  .work_btn {
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+  }
+  .box_head {
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+  }
+  .box_body {
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+  }  
+
+  /*responsive start  */
+/* xs start */
+
+@media (min-width:0px) and (max-width:575px){
+
+  .left_para h3 {
+    font-size: 35px;
+    line-height: 46px;
+  }  
+  .left_para h6 {
+    font-size: 13px;
+    line-height: 22px;
+    padding-bottom: 12px;
+  }
+  .box_head {
+    font-size: 19px;
+    line-height: 31px;
+  }
+  .work_btn {
+    font-size: 16px;
+    line-height: 61px;
+  }
+  .box_body {
+    font-size: 11px;
+    line-height: 22px;
+  }
+}
+
+/* xs end */
+
+
+/* sm start */
+
+@media (min-width:576px) and (max-width:767.98px){
+
+  .left_para h3 {
+    font-size: 35px;
+    line-height: 46px;
+  }  
+  .left_para h6 {
+    font-size: 13px;
+    line-height: 22px;
+    padding-bottom: 12px;
+  }
+  .box_head {
+    font-size: 19px;
+    line-height: 31px;
+  }
+  .work_btn {
+    font-size: 16px;
+    line-height: 61px;
+  }
+  .box_body {
+    font-size: 11px;
+    line-height: 22px;
+  }
+}
+
+/* sm end */
+
+
+/* md start */
+
+@media (min-width:768px) and (max-width:991px){
+
+  .left_para h3 {
+    font-size: 35px;
+    line-height: 46px;
+  }  
+  .left_para h6 {
+    font-size: 13px;
+    line-height: 22px;
+    padding-bottom: 12px;
+  }
+  .box_head {
+    font-size: 19px;
+    line-height: 31px;
+  }
+  .work_btn {
+    font-size: 16px;
+    line-height: 61px;
+  }
+  .box_body {
+    font-size: 11px;
+    line-height: 22px;
+  }
+}
+
+/* md end */
+
+
+/* lg start */
+
+@media (min-width:992px) and (max-width:1199px){}
+
+/* lg end */
+
+
+/* xl start */
+
+@media (min-width:1200px) and (max-width:1399px){}
+
+/* xl end */
+
+
+/* xxl start */
+
+@media (min-width:1400px) {}
+
+/* xxl end */  
+
+/* responsive end */

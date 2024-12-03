@@ -1,0 +1,112 @@
+.client_main {
+    display: flex;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    padding-left: 160px;
+    padding-right: 160px;
+  }
+  .client_head {
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 56px;
+    padding-bottom: 16px;
+  }
+  .body_client {
+    width: 327px;
+    height: 184px;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .right_client {
+    padding-left: 110px;
+  }
+  .client_body {
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    padding-bottom: 48px;
+  }
+
+/* responsive start */
+/* xs start */
+
+@media (min-width:0px) and (max-width:575px){
+  .client_head {
+    font-size: 21px;
+    line-height: 43px;
+    padding-bottom: 12px;
+  }
+  .client_body {
+    font-size: 16px;
+    line-height: 35px;
+    padding-bottom: 48px;
+  }
+}
+
+/* xs end */
+
+
+/* sm start */
+
+@media (min-width:576px) and (max-width:767.98px){
+  .client_head {
+    font-size: 21px;
+    line-height: 43px;
+    padding-bottom: 12px;
+  }
+  .client_body {
+    font-size: 16px;
+    line-height: 35px;
+    padding-bottom: 48px;
+  }
+}
+
+/* sm end */
+
+
+/* md start */
+
+@media (min-width:768px) and (max-width:991px){
+  .client_head {
+    font-size: 21px;
+    line-height: 43px;
+    padding-bottom: 12px;
+  }
+  .client_body {
+    font-size: 16px;
+    line-height: 35px;
+    padding-bottom: 48px;
+  }
+}
+
+/* md end */
+
+
+/* lg start */
+
+@media (min-width:992px) and (max-width:1199px){}
+
+/* lg end */
+
+
+/* xl start */
+
+@media (min-width:1200px) and (max-width:1399px){}
+
+/* xl end */
+
+
+/* xxl start */
+
+@media (min-width:1400px) {}
+
+/* xxl end */
+
+/* responsive end */  
